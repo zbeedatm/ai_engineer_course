@@ -1,0 +1,40 @@
+Introduction to AI
+Artificial Intelligence (AI) is a broad field that focuses on creating systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing patterns, making decisions, and generating content.
+
+LLMs (Large Language Models)
+Large language models such as GPT, Claude, and Gemini are trained on very large text corpora. They predict the next token based on the previous tokens. Their knowledge is limited to what they were trained on and to their training cutoff date. That is why we sometimes need retrieval.
+
+What is RAG?
+Retrieval-Augmented Generation (RAG) is a technique that improves LLM answers by adding external, up-to-date or domain-specific context. The basic RAG flow:
+1. User asks a question.
+2. System retrieves the most relevant documents/chunks from a vector database.
+3. The retrieved context is injected into the LLM prompt.
+4. The LLM generates an answer that is grounded in the retrieved context.
+
+Why RAG is needed
+- LLMs hallucinate when they don't have knowledge.
+- Organizations have private data that is not in the model.
+- Content changes frequently and we don’t want to fine-tune every time.
+
+Vector stores
+A vector store (like FAISS, Chroma, PGVector, or Elasticsearch with vectors) stores text as embeddings. An embedding is a numeric representation of text. During a query, we create an embedding for the query and search for the most similar vectors.
+
+Chunking
+Before storing documents in a vector store, we split long texts into smaller chunks (for example 500 tokens with 50 overlap). This allows the retriever to return only the parts that are relevant to the user’s question. LangChain provides text splitters to do this.
+
+LangChain
+LangChain is a framework that helps us connect LLMs, retrievers, tools, and memory in a structured way. Instead of writing all the orchestration manually, we define chains and agents. LangChain can be used to implement RAG pipelines, tool calling, and even multi-step agents.
+
+Difference between LangChain and RAG
+- RAG is an architectural pattern/technique: retrieve → augment → generate.
+- LangChain is a framework that helps you build things like RAG (and many other flows).
+- You can build RAG without LangChain, but LangChain makes it faster and more modular.
+
+MCP (Model Context Protocol)
+MCP is about standardizing how an AI system connects to external tools, data sources, or services. It makes tool integration more reusable. LangChain agents can conceptually work with MCP-exposed tools, so you can combine all three: LangChain + RAG + MCP.
+
+Example questions this document can answer
+- What is RAG and why is it useful?
+- How does LangChain help in building RAG?
+- Why do we need chunking before putting data in FAISS?
+- What is the difference between LangChain and RAG?

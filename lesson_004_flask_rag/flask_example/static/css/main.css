@@ -1,0 +1,17 @@
+/* Shared site styles */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin: 2rem;
+}
+.nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0b5ed7;
+}
+.nav a:hover { text-decoration: underline; }
+.card {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}

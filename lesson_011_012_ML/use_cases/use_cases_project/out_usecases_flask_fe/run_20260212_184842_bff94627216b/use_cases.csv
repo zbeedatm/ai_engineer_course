@@ -1,0 +1,31 @@
+Use Case,Description,Prompts,Visitors,Accounts,Retention,% Rage Prompts,cluster_id
+Streamlined Content and Deal Tracking,"Manage content calendars, track sponsorship deals, handle invoices, and set deadlines with integrated analytics and various third-party connections.",1807,1367,489,0.281,1.8,3
+Home Services Booking & Technician Dispatch,"Build a simple, usable app for home service booking and technician dispatch.",1038,887,445,0.16,3.7,10
+Difficulty Adding New Features/Integrations,"Users frequently inquire about the difficulty of adding various new features, tracking, and notification functionalities.",683,621,394,0.093,2.3,2
+Export Filtered Data to CSV,Users want to export their currently filtered data view into a CSV file for external use or further analysis.,547,504,345,0.083,2.9,14
+Mobile Spacing Issues: Header and List Overlap,"Users report mobile display issues where header and list elements overlap, causing incorrect spacing and layout problems.",482,437,309,0.101,3.3,6
+Persistent 401 Error While Logged In,"Users repeatedly encounter a 401 unauthorized error even when actively logged in, preventing them from performing critical actions.",471,441,325,0.066,3.0,9
+Verify CORS and Auth Redirects,Users are concerned about verifying the correct handling of CORS and authentication redirects to prevent potential issues.,350,336,253,0.042,1.7,20
+Integrate with Existing Infrastructure,"Users inquire about the application's ability to integrate with their current authentication systems and data sources like OAuth, Firebase, and Postgres.",338,325,246,0.04,3.6,23
+Integrate Webhooks for External Notifications,Users require the ability to send data and notifications to external systems using webhooks for seamless integration.,311,297,235,0.044,1.0,26
+Improve Empty States Visual Appeal,Enhance the visual design of empty states to make them more appealing and improve user experience.,308,286,218,0.07,1.3,22
+"Deploying on Fly.io, Avoiding Self-Hosting",Users want to deploy their applications on Fly.io to avoid the complexities and responsibilities of self-hosting.,305,287,234,0.063,2.6,21
+Login Redirect Loop After Login,"Users are stuck in a redirect loop immediately after login, preventing them from accessing the application.",278,269,208,0.03,2.5,19
+Incorrect Timezone Display,"Users report that timezones are consistently off by two hours, indicating a potential bug in UTC handling or display.",250,239,193,0.046,0.4,5
+Blank Page After Saving Content,"Users encounter a blank page after clicking save, preventing them from shipping content and completing their work.",236,230,193,0.026,2.1,27
+Painful Table View Experience on MacBook,"Users find the table view difficult and painful to use on MacBook, indicating a need for improvement.",229,220,184,0.041,2.6,1
+"Prevent Hardcoding Secrets, Use Environment Variables",Users emphasize the importance of not hardcoding secrets and exclusively using environment variables for sensitive data.,225,215,182,0.047,4.0,18
+Audit Logs for Change Tracking,"Users need audit logs to track who, what, and when changes were made for security and compliance.",210,208,183,0.01,1.4,8
+Role-Based Access Control for Users,Implement distinct access levels for administrators and regular users to enhance security and control.,204,200,171,0.02,3.4,7
+Simplify Crowded User Interface,Users consistently report the UI feels crowded and request simplification to improve usability and overall experience.,198,194,163,0.021,2.5,4
+Handling Duplicates During Excel Import,Users want to understand how to manage and resolve duplicate entries when importing data from Excel spreadsheets.,188,185,164,0.016,2.1,13
+Basic Usage Stats and Funnel Analytics,Users want to analyze basic usage statistics and track user funnels to understand product engagement and conversion.,187,180,151,0.039,2.7,17
+Dark Mode Toggle Feature Request,Users are consistently requesting a dark mode toggle for improved visual comfort and reduced eye strain during use.,181,178,156,0.017,1.7,15
+Preference for Minimal and Lightweight Design,"Users consistently express a strong preference for designs that are lightweight and minimal, avoiding any heavy or cluttered elements.",179,175,149,0.023,1.1,12
+Users Stuck and Seeking Help,Users express frustration and request help when encountering difficulties or getting stuck within the product.,157,154,142,0.019,1.9,24
+Safari Browser Compatibility Issues,Users report experiencing glitches and unexpected behavior when using the product in the Safari web browser.,148,147,130,0.007,4.1,11
+Small Community Forum with Moderation,"Users are requesting a platform to create and manage a small community forum, including essential moderation capabilities.",114,113,103,0.009,4.4,0
+Verify RLS and Permissions for Sensitive Data,Users want to ensure Row-Level Security and permissions are correctly configured for sensitive data storage.,104,104,96,0.0,2.9,16
+Planning for Future 2FA Integration,Users are requesting to plan for the future implementation of Two-Factor Authentication (2FA) rather than immediate deployment.,95,95,91,0.0,3.2,25
+Ensure Private Note Privacy,Implement strict access controls to prevent users from viewing private notes belonging to other individuals.,95,92,84,0.033,2.1,28
+Filters Reset on Refresh Bug,"Users report a persistent bug where applied filters reset every time the page is refreshed, causing frustration.",82,82,78,0.0,4.9,29

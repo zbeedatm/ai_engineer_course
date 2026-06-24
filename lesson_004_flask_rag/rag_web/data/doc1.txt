@@ -1,0 +1,11 @@
+Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation.
+
+Kubernetes works by grouping containers into logical units called pods. These pods can be managed and scheduled across a cluster of machines.
+
+A key feature of Kubernetes is self-healing. If a container crashes, Kubernetes automatically restarts it. If a machine goes down, it moves the workload to another machine.
+
+Kubernetes can automatically scale applications up or down based on demand. It monitors performance and adjusts resources as needed.
+
+It also supports load balancing, service discovery, and secret management. Developers can describe how their app should run in a YAML file, and Kubernetes takes care of the rest.
+
+Many organizations use Kubernetes to simplify infrastructure management and make their applications more reliable and scalable.

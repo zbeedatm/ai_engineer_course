@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Use Case Analytics</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  <h2>Use Case Analytics</h2>
+
+  <div class="muted">
+    <div><b>HF embeddings:</b> {{ hf_model }}</div>
+    <div><b>Gemini label model:</b> {{ label_model }}</div>
+    <div><b>CSV must include column:</b> <code>{{ text_col }}</code></div>
+    {% if not default_csv_exists %}
+      <div class="warn">
+        Default CSV not found in app folder. Upload a CSV file to run.
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <input id="file" type="file" accept=".csv"/>
+      <button class="btn btn-primary" id="runBtn">Run</button>
+      <button class="btn btn-secondary" id="runDefaultBtn">Run using default CSV</button>
+    </div>
+    <p class="muted" id="fileInfo"></p>
+  </div>
+
+  <div class="card">
+    <div class="row between">
+      <div>
+        <div><b>Status:</b> <span id="status">idle</span></div>
+        <div class="muted" id="detail"></div>
+        <div class="muted">Job ID: <code id="jobid">-</code></div>
+      </div>
+      <div class="progressWrap">
+        <div class="progress"><div class="bar" id="bar"></div></div>
+        <div class="muted"><span id="progress">0</span>%</div>
+      </div>
+    </div>
+
+    <div id="downloads" class="downloads" style="display:none;">
+      <b>Downloads</b>
+      <ul>
+        <li><a id="dl_use_cases" href="#" target="_blank">use_cases.csv</a></li>
+        <li><a id="dl_labeled" href="#" target="_blank">labeled_rows.csv</a></li>
+        <li><a id="dl_map" href="#" target="_blank">use_case_map.json</a></li>
+        <li><a id="dl_scores" href="#" target="_blank">k_silhouette_scores.json</a></li>
+      </ul>
+    </div>
+
+    <div id="summary" style="display:none; margin-top: 10px;"></div>
+
+    <div id="tableWrap" style="display:none;">
+      <h3>Top Use Cases (preview)</h3>
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th>Use Case</th>
+            <th>Description</th>
+            <th>Prompts</th>
+            <th>Visitors</th>
+            <th>Accounts</th>
+            <th>Retention</th>
+            <th>% Rage Prompts</th>
+            <th>cluster_id</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

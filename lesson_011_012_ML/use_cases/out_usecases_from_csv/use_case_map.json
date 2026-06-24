@@ -1,0 +1,370 @@
+{
+  "0": {
+    "use_case": "Simple Service and Coordination Apps",
+    "description": "Users want to build straightforward applications for coordination, booking, and service requests, prioritizing speed and simplicity.",
+    "keywords": [
+      "Fast app",
+      "Simple app",
+      "Usable app",
+      "Donations app",
+      "Volunteer coordination",
+      "Home services booking",
+      "Property maintenance"
+    ]
+  },
+  "1": {
+    "use_case": "Secure Secret Management with Environment Variables",
+    "description": "Users are reminded to avoid hardcoding sensitive information and instead utilize environment variables for secure secret management.",
+    "keywords": [
+      "hardcode secrets",
+      "environment variables",
+      "env vars",
+      "secret management",
+      "security best practices",
+      "sensitive information"
+    ]
+  },
+  "2": {
+    "use_case": "Import CSV and Map Fields",
+    "description": "Users want to import data from CSV files and map the fields to existing data structures within the system.",
+    "keywords": [
+      "CSV import",
+      "data mapping",
+      "field mapping",
+      "data ingestion",
+      "file upload"
+    ]
+  },
+  "3": {
+    "use_case": "Unreliable Tag Saving Functionality",
+    "description": "Users report inconsistent and random behavior when saving tags, hindering their ability to ship products reliably.",
+    "keywords": [
+      "Saving tags issue",
+      "Random tag saving",
+      "Inconsistent tag behavior",
+      "Shipping impediment",
+      "Unreliable saving functionality"
+    ]
+  },
+  "4": {
+    "use_case": "Mobile Layout and Spacing Issues",
+    "description": "Users are experiencing incorrect spacing and overlapping elements, specifically headers and lists, on mobile devices.",
+    "keywords": [
+      "mobile spacing",
+      "layout issues",
+      "header overlap",
+      "list overlap",
+      "mobile display",
+      "UI bug"
+    ]
+  },
+  "5": {
+    "use_case": "Request for Core Platform Features",
+    "description": "Users are requesting essential features like admin tools, communication, and task management capabilities.",
+    "keywords": [
+      "Reminders",
+      "Notifications",
+      "Admin Dashboard",
+      "Announcements",
+      "Assignments",
+      "Submissions",
+      "Feature requests",
+      "Platform enhancements"
+    ]
+  },
+  "6": {
+    "use_case": "Simplify Crowded User Interface",
+    "description": "Users perceive the current UI as crowded and request simplification for a better user experience.",
+    "keywords": [
+      "UI simplification",
+      "crowded interface",
+      "user experience",
+      "cluttered design",
+      "interface usability",
+      "design improvement"
+    ]
+  },
+  "7": {
+    "use_case": "Platform Integrations for Auth and DB",
+    "description": "Users are exploring integrating authentication and database services with various third-party platforms like GitHub, Netlify, Vercel, and Slack.",
+    "keywords": [
+      "Authentication",
+      "Database",
+      "Platform integration",
+      "Third-party services",
+      "GitHub",
+      "Netlify",
+      "Vercel",
+      "Slack"
+    ]
+  },
+  "8": {
+    "use_case": "CORS and Redirects with Authentication",
+    "description": "Users are concerned about potential issues with Cross-Origin Resource Sharing and redirects when implementing authentication.",
+    "keywords": [
+      "CORS",
+      "Cross-Origin Resource Sharing",
+      "redirects",
+      "authentication",
+      "auth issues",
+      "security concerns",
+      "double-check"
+    ]
+  },
+  "9": {
+    "use_case": "Addressing 401 Errors Post-Refresh",
+    "description": "Users frequently report 401 authentication errors occurring after a refresh, often with apologies for repeated communication.",
+    "keywords": [
+      "401 error",
+      "authentication failure",
+      "session refresh",
+      "API issues",
+      "debugging",
+      "repeated reports",
+      "user feedback"
+    ]
+  },
+  "10": {
+    "use_case": "Implement Role-Based Access Control",
+    "description": "Users require distinct access levels, differentiating between administrators and normal users.",
+    "keywords": [
+      "Role-based access",
+      "Access control",
+      "User roles",
+      "Admin vs normal users",
+      "Permissions"
+    ]
+  },
+  "11": {
+    "use_case": "Integrate with Existing Third-Party Tools",
+    "description": "Users inquire about the app's ability to integrate with their existing third-party platforms and services like Firebase, n8n, or Webhooks.",
+    "keywords": [
+      "Firebase",
+      "n8n",
+      "Webhooks",
+      "Integrations",
+      "Third-party tools",
+      "Existing systems",
+      "App compatibility",
+      "Data connection"
+    ]
+  },
+  "12": {
+    "use_case": "Basic Usage Stats and Funnel Analytics",
+    "description": "Users want to track fundamental usage metrics and analyze user conversion funnels within the product.",
+    "keywords": [
+      "basic usage stats",
+      "funnels",
+      "product analytics",
+      "user behavior",
+      "conversion tracking",
+      "usage metrics"
+    ]
+  },
+  "13": {
+    "use_case": "Internal Tools & Business Process Automation",
+    "description": "Users need custom applications to streamline internal operations, manage data, and automate workflows across various business functions.",
+    "keywords": [
+      "Workflow Automation",
+      "Custom Applications",
+      "Operational Management",
+      "Role-Based Permissions",
+      "Data Management",
+      "Business Process Automation",
+      "Integrations",
+      "Scheduling & CRM"
+    ]
+  },
+  "14": {
+    "use_case": "Safari Browser Compatibility Issues",
+    "description": "Users expect the product to function flawlessly and without glitches when used in the Safari web browser.",
+    "keywords": [
+      "Safari browser",
+      "browser compatibility",
+      "glitches",
+      "performance issues",
+      "user experience"
+    ]
+  },
+  "15": {
+    "use_case": "Table View Usability Across Devices",
+    "description": "Users report a painful table view experience on various devices like MacBook, Chromebook, and Android, seeking improvements.",
+    "keywords": [
+      "table view",
+      "usability issues",
+      "MacBook",
+      "Chromebook",
+      "Android",
+      "device specific",
+      "user experience"
+    ]
+  },
+  "16": {
+    "use_case": "Managing Duplicates During CSV Import",
+    "description": "This use case addresses how the system handles duplicate records when users import data from CSV files.",
+    "keywords": [
+      "CSV import",
+      "duplicate records",
+      "data management",
+      "import process",
+      "data integrity",
+      "record handling"
+    ]
+  },
+  "17": {
+    "use_case": "Prototyping Custom Business Applications",
+    "description": "Users want to quickly prototype and build various custom business applications for specific operational needs.",
+    "keywords": [
+      "App prototyping",
+      "Custom business apps",
+      "Workflow solutions",
+      "Operational tools",
+      "Rapid application development",
+      "Business process automation"
+    ]
+  },
+  "18": {
+    "use_case": "Export Filtered View to CSV",
+    "description": "Users want to export data from a filtered view into a CSV file for further analysis or sharing.",
+    "keywords": [
+      "Export to CSV",
+      "Filtered View",
+      "Data Export",
+      "CSV Download",
+      "Table Export"
+    ]
+  },
+  "19": {
+    "use_case": "Audit Logs for Change Tracking",
+    "description": "Users require audit logs to track who made changes, what was changed, and when these modifications occurred.",
+    "keywords": [
+      "Audit logs",
+      "Change tracking",
+      "User activity",
+      "Data modification",
+      "Who changed what",
+      "When changed"
+    ]
+  },
+  "20": {
+    "use_case": "Assessing Feature Integration Difficulty",
+    "description": "Users inquire about the perceived difficulty of integrating various new features and functionalities into the product.",
+    "keywords": [
+      "Feature integration",
+      "Adding new features",
+      "Implementation difficulty",
+      "Product functionality",
+      "User feedback",
+      "Feature requests"
+    ]
+  },
+  "21": {
+    "use_case": "Login Redirect Loop After Authentication",
+    "description": "Users are experiencing a persistent redirect loop immediately after logging in, preventing access to the application.",
+    "keywords": [
+      "redirect loop",
+      "login issue",
+      "authentication problem",
+      "stuck in loop",
+      "kicked back to login",
+      "post-login redirect"
+    ]
+  },
+  "22": {
+    "use_case": "Remembering Specific Content or Features",
+    "description": "Users frequently forget where to find specific announcements, content calendars, or other product features.",
+    "keywords": [
+      "forgotten features",
+      "content discovery",
+      "announcements",
+      "content calendar",
+      "booking form",
+      "campaign pages",
+      "incident reporting",
+      "knowledge base"
+    ]
+  },
+  "23": {
+    "use_case": "Enhance Empty State User Experience",
+    "description": "Users request improvements to the visual design and overall user experience of empty states to make them more engaging and less 'sad'.",
+    "keywords": [
+      "empty states",
+      "user experience",
+      "UI design",
+      "visual appeal",
+      "design improvement",
+      "engagement"
+    ]
+  },
+  "24": {
+    "use_case": "Deploying on Managed Cloud Platforms",
+    "description": "Users prefer deploying applications on managed cloud platforms like Fly.io or Render, avoiding self-hosting complexities.",
+    "keywords": [
+      "Cloud deployment",
+      "Managed hosting",
+      "Fly.io",
+      "Render",
+      "PaaS",
+      "No self-hosting"
+    ]
+  },
+  "25": {
+    "use_case": "Request Dark Mode Toggle Feature",
+    "description": "Users are consistently requesting the addition of a dark mode toggle for improved visual comfort and preference.",
+    "keywords": [
+      "Dark mode",
+      "toggle",
+      "user interface",
+      "visual comfort",
+      "feature request",
+      "display settings"
+    ]
+  },
+  "26": {
+    "use_case": "Planning for Two-Factor Authentication",
+    "description": "Users are requesting to plan for the future implementation of Two-Factor Authentication, not an immediate deployment.",
+    "keywords": [
+      "2FA",
+      "Two-Factor Authentication",
+      "Future implementation",
+      "Feature planning",
+      "Security enhancement"
+    ]
+  },
+  "27": {
+    "use_case": "GitHub Sync for Developer PR Reviews",
+    "description": "Users request GitHub synchronization to enable developers to review Pull Requests directly, streamlining code review processes.",
+    "keywords": [
+      "GitHub sync",
+      "Pull Request review",
+      "developer workflow",
+      "code review",
+      "repository integration",
+      "version control"
+    ]
+  },
+  "28": {
+    "use_case": "Mobile Usage on MacBook",
+    "description": "This use case highlights the significant mobile usage among users, with a strong preference for MacBook devices.",
+    "keywords": [
+      "Mobile usage",
+      "MacBook users",
+      "device preference",
+      "user demographics",
+      "mobile experience"
+    ]
+  },
+  "29": {
+    "use_case": "User Frustration with Product Difficulty",
+    "description": "Users are expressing significant frustration and difficulty, questioning the product's usability and their own sanity due to perceived complexity.",
+    "keywords": [
+      "User frustration",
+      "Product difficulty",
+      "Usability issues",
+      "Product complexity",
+      "User struggle",
+      "Ease of use",
+      "User experience"
+    ]
+  }
+}

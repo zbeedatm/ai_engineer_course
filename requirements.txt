@@ -1,0 +1,68 @@
+# ══════════════════════════════════════════════════════════════
+#  AI Engineer Course — Requirements
+# ══════════════════════════════════════════════════════════════
+
+# ── Environment ───────────────────────────────────────────────
+python-dotenv>=1.0
+
+# ── Web / API servers ─────────────────────────────────────────
+Flask>=3.0
+flask-cors>=4.0
+requests>=2.32
+
+# ── AI APIs ───────────────────────────────────────────────────
+openai>=2.0                 # lesson_013, lesson_015
+google-genai>=1.0           # lesson_002, lesson_004, lesson_006, lesson_011
+
+# ── LangChain ecosystem ───────────────────────────────────────
+langchain>=1.0              # lesson_010, lesson_011
+langchain-openai>=0.1
+langchain-classic>=1.0
+langchain-community>=0.2
+langchain-core>=0.2
+langchain-text-splitters>=0.2
+langgraph>=1.0              # lesson_010
+
+# ── MCP (Model Context Protocol) ──────────────────────────────
+mcp>=1.0                    # lesson_006
+
+# ── RAG / Evaluation ──────────────────────────────────────────
+ragas>=0.4                  # lesson_015
+faiss-cpu>=1.7              # lesson_004, lesson_010, lesson_011
+
+# ── NLP ───────────────────────────────────────────────────────
+nltk>=3.8                   # lesson_003, lesson_004
+spacy>=3.7                  # lesson_003
+gensim>=4.3                 # lesson_003
+sentence-transformers>=3.0  # lesson_004, lesson_011, lesson_013
+beautifulsoup4>=4.12        # lesson_004 (exercise)
+
+# ── Classical ML ──────────────────────────────────────────────
+scikit-learn>=1.4           # lesson_011
+numpy>=1.26
+pandas>=2.1
+scipy>=1.12
+matplotlib>=3.8
+xgboost>=2.0                # lesson_011 (gradient_boosting_example)
+lightgbm>=4.0               # lesson_011 (gradient_boosting_example)
+catboost>=1.2               # lesson_011 (gradient_boosting_example)
+
+# ── Deep Learning ─────────────────────────────────────────────
+# For GPU support install torch separately from https://pytorch.org
+torch>=2.0                  # lesson_011, lesson_013
+torchvision>=0.15           # lesson_011, lesson_013
+transformers>=4.36          # lesson_013
+
+# ── Multimodal / PDF ──────────────────────────────────────────
+PyMuPDF>=1.24               # lesson_014 — imports as `fitz`
+Pillow>=10.0                # lesson_013, lesson_014
+
+# ── AWS ───────────────────────────────────────────────────────
+boto3>=1.34                 # lesson_005
+opensearch-py>=2.4          # lesson_005
+
+# ── Local LLM ─────────────────────────────────────────────────
+llama-cpp-python>=0.2       # lesson_004 (llama_cpp_flask_example)
+
+# ── Data validation ───────────────────────────────────────────
+pydantic>=2.5

@@ -1,0 +1,249 @@
+{
+  "info": {
+    "name": "Glassdoor Real-Time API",
+    "description": "Collection for testing Glassdoor API endpoints - Read-Only Real Data",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000/api/v1",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "your-api-key-here",
+      "type": "string"
+    },
+    {
+      "key": "company_id",
+      "value": "9079",
+      "type": "string",
+      "description": "Example: Google's Glassdoor ID"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "API Documentation",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/docs",
+          "host": ["{{base_url}}"],
+          "path": ["docs"]
+        }
+      }
+    },
+    {
+      "name": "Search Companies",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/search?q=Google&limit=10&offset=0",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "search"],
+          "query": [
+            {
+              "key": "q",
+              "value": "Google",
+              "description": "Company name to search for"
+            },
+            {
+              "key": "limit",
+              "value": "10"
+            },
+            {
+              "key": "offset",
+              "value": "0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Company Details",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Get Company Reviews",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/reviews?limit=10&offset=0&language=eng",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "reviews"],
+          "query": [
+            {
+              "key": "limit",
+              "value": "10"
+            },
+            {
+              "key": "offset",
+              "value": "0"
+            },
+            {
+              "key": "language",
+              "value": "eng",
+              "description": "eng, spa, fra, etc."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Company Salaries",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/salaries?job_title=Software%20Engineer&page=1",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "salaries"],
+          "query": [
+            {
+              "key": "job_title",
+              "value": "Software%20Engineer"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Company Interviews",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/interviews?page=1",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "interviews"],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Company Benefits",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/benefits",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "benefits"]
+        }
+      }
+    },
+    {
+      "name": "Get Company Photos",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/photos?page=1",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "photos"],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get CEO Information",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/companies/{{company_id}}/ceo",
+          "host": ["{{base_url}}"],
+          "path": ["companies", "{{company_id}}", "ceo"]
+        }
+      }
+    }
+  ]
+}

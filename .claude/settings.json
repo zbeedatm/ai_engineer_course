@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\Users\\\\zbeed\\\\Documents\\\\Muhammad\\\\Learning\\\\AI_Engineer\\\\code\\\\ai_engineer_course\" check-ignore -v .env)",
+      "Bash(.venv/Scripts/python -c \"import mcp; print\\(mcp.__version__\\)\")",
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(.venv/Scripts/python -m pip list --format=freeze)"
+    ]
+  }
+}

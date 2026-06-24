@@ -1,0 +1,6 @@
+pip install langchain openai faiss-cpu tiktoken
+pip install langchain-community langchain-openai langchain-text-splitters
+pip install langchain-classic
+
+Document load:
+pip install langchain-community pypdf python-docx openpyxl docx2txt

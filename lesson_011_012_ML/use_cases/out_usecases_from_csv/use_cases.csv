@@ -1,0 +1,31 @@
+Use Case,Description,Prompts,Visitors,Accounts,Retention,% Rage Prompts,cluster_id
+Request for Core Platform Features,"Users are requesting essential features like admin tools, communication, and task management capabilities.",836,750,414,0.108,2.4,5
+Prototyping Custom Business Applications,Users want to quickly prototype and build various custom business applications for specific operational needs.,736,658,394,0.116,3.1,17
+Internal Tools & Business Process Automation,"Users need custom applications to streamline internal operations, manage data, and automate workflows across various business functions.",719,634,382,0.123,0.0,13
+Assessing Feature Integration Difficulty,Users inquire about the perceived difficulty of integrating various new features and functionalities into the product.,620,570,369,0.082,2.6,20
+Unreliable Tag Saving Functionality,"Users report inconsistent and random behavior when saving tags, hindering their ability to ship products reliably.",559,517,346,0.072,2.7,3
+Simplify Crowded User Interface,Users perceive the current UI as crowded and request simplification for a better user experience.,479,442,309,0.081,1.9,6
+Simple Service and Coordination Apps,"Users want to build straightforward applications for coordination, booking, and service requests, prioritizing speed and simplicity.",465,439,307,0.059,4.3,0
+Table View Usability Across Devices,"Users report a painful table view experience on various devices like MacBook, Chromebook, and Android, seeking improvements.",428,396,285,0.073,2.1,15
+Implement Role-Based Access Control,"Users require distinct access levels, differentiating between administrators and normal users.",428,406,286,0.054,3.0,10
+Login Redirect Loop After Authentication,"Users are experiencing a persistent redirect loop immediately after logging in, preventing access to the application.",366,343,252,0.064,2.7,21
+Secure Secret Management with Environment Variables,Users are reminded to avoid hardcoding sensitive information and instead utilize environment variables for secure secret management.,354,336,259,0.054,2.8,1
+Remembering Specific Content or Features,"Users frequently forget where to find specific announcements, content calendars, or other product features.",337,311,245,0.08,3.0,22
+Addressing 401 Errors Post-Refresh,"Users frequently report 401 authentication errors occurring after a refresh, often with apologies for repeated communication.",312,299,232,0.043,1.9,9
+Mobile Layout and Spacing Issues,"Users are experiencing incorrect spacing and overlapping elements, specifically headers and lists, on mobile devices.",309,291,234,0.062,3.2,4
+Integrate with Existing Third-Party Tools,"Users inquire about the app's ability to integrate with their existing third-party platforms and services like Firebase, n8n, or Webhooks.",304,294,230,0.034,3.3,11
+Audit Logs for Change Tracking,"Users require audit logs to track who made changes, what was changed, and when these modifications occurred.",298,287,228,0.035,2.3,19
+Deploying on Managed Cloud Platforms,"Users prefer deploying applications on managed cloud platforms like Fly.io or Render, avoiding self-hosting complexities.",243,234,199,0.038,2.9,24
+Enhance Empty State User Experience,Users request improvements to the visual design and overall user experience of empty states to make them more engaging and less 'sad'.,222,211,178,0.047,0.9,23
+Export Filtered View to CSV,Users want to export data from a filtered view into a CSV file for further analysis or sharing.,190,184,166,0.027,2.6,18
+Managing Duplicates During CSV Import,This use case addresses how the system handles duplicate records when users import data from CSV files.,187,184,164,0.016,2.1,16
+Request Dark Mode Toggle Feature,Users are consistently requesting the addition of a dark mode toggle for improved visual comfort and preference.,184,180,158,0.022,1.6,25
+Mobile Usage on MacBook,"This use case highlights the significant mobile usage among users, with a strong preference for MacBook devices.",183,174,156,0.052,3.3,28
+GitHub Sync for Developer PR Reviews,"Users request GitHub synchronization to enable developers to review Pull Requests directly, streamlining code review processes.",175,172,157,0.017,2.3,27
+Basic Usage Stats and Funnel Analytics,Users want to track fundamental usage metrics and analyze user conversion funnels within the product.,173,167,144,0.036,2.9,12
+User Frustration with Product Difficulty,"Users are expressing significant frustration and difficulty, questioning the product's usability and their own sanity due to perceived complexity.",172,166,149,0.036,1.7,29
+Import CSV and Map Fields,Users want to import data from CSV files and map the fields to existing data structures within the system.,164,161,146,0.019,4.3,2
+Platform Integrations for Auth and DB,"Users are exploring integrating authentication and database services with various third-party platforms like GitHub, Netlify, Vercel, and Slack.",161,158,140,0.019,3.1,7
+Safari Browser Compatibility Issues,Users expect the product to function flawlessly and without glitches when used in the Safari web browser.,155,153,134,0.013,3.9,14
+CORS and Redirects with Authentication,Users are concerned about potential issues with Cross-Origin Resource Sharing and redirects when implementing authentication.,146,146,124,0.0,0.7,8
+Planning for Two-Factor Authentication,"Users are requesting to plan for the future implementation of Two-Factor Authentication, not an immediate deployment.",95,95,91,0.0,3.2,26

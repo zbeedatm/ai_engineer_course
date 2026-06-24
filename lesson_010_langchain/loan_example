@@ -1,0 +1,11 @@
+Decision Tree: Loan Approval
+
+        [Level 1: Approve or Reject]
+                /                \
+           Approve              Reject
+              /                    \
+    [Level 2: Risk Eval]    [Level 2: Reason]
+         /       \             /     |     \
+    High-risk  Low-risk   Income  Credit  History
+         \       /             \     |     /
+ [Level 3: Explain Risk]  [Level 3: Explain Reason]

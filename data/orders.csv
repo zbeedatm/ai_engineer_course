@@ -1,0 +1,11 @@
+order_id,order_date,customer_email,product_name,quantity,unit_price,total_amount,status,shipping_method
+OCT-2023-001,2023-01-15,user123@email.demo,Basic Tank A1,2,149.99,299.98,Delivered,Standard
+OCT-2023-002,2023-01-16,customer456@mockmail.test,Premium Tank X3,1,299.99,299.99,Processing,Express
+OCT-2023-003,2023-01-16,buyer789@testmail.sample,Mini Tank B2,3,89.99,269.97,Shipped,Standard
+OCT-2023-004,2023-01-17,shop234@demomail.test,Ultra Tank Z1,1,499.99,499.99,Pending,Premium
+OCT-2023-005,2023-01-18,client567@samplemail.demo,Basic Tank A1,5,149.99,749.95,Delivered,Standard
+OCT-2023-006,2023-01-19,test890@emailtest.sample,Premium Tank X5,2,299.99,599.98,Processing,Express
+OCT-2023-007,2023-01-20,demo345@mocktest.demo,Mini Tank B2,4,89.99,359.96,Cancelled,Standard
+OCT-2023-008,2023-01-21,sample678@testemail.test,Ultra Tank Z1,1,499.99,499.99,Delivered,Premium
+OCT-2023-009,2023-01-22,user012@sampletest.demo,Basic Tank A1,3,149.99,449.97,Shipped,Standard
+OCT-2023-010,2023-01-23,customer135@demotest.sample,Premium Tank X3,1,299.99,299.99,Delivered,Express
